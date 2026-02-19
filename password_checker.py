@@ -75,8 +75,6 @@ def length_score(password):
     return score
 
 def common_score(password):
-    # with open('common_passwords.txt', 'r') as f:
-    #     common = f.read().splitlines()
 
     common_pass = {"12345","123456","12345678","123456789","password","1234567890","skibidi","1234567","pakistan123",
     "assword","123456","1234qwer","123456789","12345678","12345","1234567890","password","1234567","Contraseña",
