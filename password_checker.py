@@ -18,9 +18,9 @@ def check_password():
         notes = "Your password is weak! Change ASAP!"
     elif strength < 6:
         notes = "Your password is alright. You should consider changing it."
-    elif strength < 11:
+    elif strength < 10:
         notes = "Your password is good. But it could be better."
-    elif strength >= 11:
+    elif strength >= 10:
         notes = "Your password is strong! Good job"
 
     print(f"Password Strength: {strength}")
